@@ -1,0 +1,51 @@
+一些全局设定：
+1)移除了body中的margin
+2)设置body属性为 background-color:white;
+3)使用@baseFontFamily,@baseFontSize,@baseLineHeight属性作为基属性
+4)使用@linkColor控制链接属性而且仅当:hover时允许链接产生下划线
+这些都是在scaffolding.less文件中设定的
+
+.row 类似于表格中的行，将列限定在其中
+.span* 之前我们介绍过bootstrap默认使用12列标准，这个*的范围就是1-12，大小不同设定的宽度不同，通常可以在row中调整列的布局
+.offset* 和span的用法类似，不过是设定html元素偏移量的
+.container 提供一个固定宽度的容器
+.*-fluid 这个就是流式设计，当你的显示不够默认要求的话，它会自动调整
+
+一些样式类：
+.lead 作用于p标签，使其内容凸显出来
+.muted 使字体变为淡灰色
+.text-warning 使字体变为黄色
+.text-error 使字体变为红色
+.text-info 使字体变为蓝色
+.text-success 使字体变为绿色
+.initialism 设定缩略语默认解释
+.pull-right 使元素居右显示
+.unstyled 去掉ul或ol的样式
+.dl-horizontal 是列表描述同行显示
+
+一些标签：
+h1-h6 标题从大到小6个级别
+small 设置小字体
+strong 加粗字体
+em 设置斜体
+abbr 设置缩略语
+address 格式化地址，每行已br结尾
+blockquote 设定引用
+ul 列表无序
+ol 列表有序
+dl 列表描述
+
+一些标签
+code 修饰在内容中嵌入的代码
+pre 修饰多行代码
+
+一些样式类
+.table 无列，按行布局的简约显示
+.table-striped 在.table的基础上加上斑马条纹
+.table-bordered 给表格添加边线及圆角效果
+.table-hover 添加表格的hover变色效果
+.table-condensed 使表格更加紧凑
+.success 修饰表格行为绿色
+.error 修饰表格行为红色
+.warning 修饰表格行为黄色
+.info 修饰表格行为蓝色

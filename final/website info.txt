@@ -1,0 +1,26 @@
+http://ashlandcandyshop.com/
+ftp:69.195.124.213
+username:ashlang4
+Password:"Acm#1234".
+
+/***********************************/
+
+mysql_db:ashlang4_website
+mysql_user:ashlang4_user
+mysql_password:WcTDH.q#@=XV
+
+/***********************************/
+
+Admin site
+http://ashlandcandyshop.com/admin/
+username:admin
+password:admin
+
+/***********************************/
+
+MYSQL administrator password backup
+hash('sha512', $password);
+
+admin after encrypt 
+
+c7ad44cbad762a5da0a452f9e854fdc1e0e7a52a38015f23f3eab1d80b931dd472634dfac71cd34ebc35d16ab7fb8a90c81f975113d6c7538dc69dd8de9077ec

@@ -1,0 +1,62 @@
+body > h2:nth-child(1){
+	font-size: 36px;
+}
+
+
+#about img{
+	display: block;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	background: url(../../img/history.jpg) no-repeat;
+	width: 400px;
+	height: 267px;
+	padding-left: 400px;
+}
+
+#history > div.anchors > div > a:nth-child(1) > img{
+	display: block;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	background: url(../../img/toptestimonials.png) no-repeat;
+	width: 45px;
+	height: 13px;
+	padding-left: 45px;
+}
+
+#history > div.anchors > div > a:nth-child(2) > img{
+	display: block;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	background: url(../../img/bottomtestimonials.png) no-repeat;
+	width: 45px;
+	height: 13px;
+	padding-left: 45px;
+}
+
+#darkfilter > div > div.grid_12.topquote > img{
+	display: block;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	background: url(../../img/topquote.png) no-repeat;
+	width: 64px;
+	height: 51px;
+	padding-left: 64px;
+}
+
+#darkfilter > div > div.grid_12.bottomquote > img{
+	display: block;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	background: url(../../img/bottomquote.png) no-repeat;
+	width: 64px;
+	height: 51px;
+	padding-left: 64px;
+}
+
+#inner1 {
+	float: left;
+}
+
+#inner2 {
+	float: left;
+}

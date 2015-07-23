@@ -1,0 +1,40 @@
+Issue
+1. 4 side picture to big about 520 ms each
+2. background image load too many time about 218ms
+3  js 234ms
+4. css 210-280ms
+5. other img aobut 500ms
+=================Main issue loading time
+
+
+Fix plan
+1.  We Optimize the compressed image use https://tinypng.com/ and photoshop
+2.  We Optimize the js and css file - didn't do it
+3.  We add Responsive Web Design to website for fix the img size issue.
+4.  Add html class in the header
+
+
+----------------
+NEW UPDATE TEST
+----------------
+NO CDN(cloudflare)
+Load time
+1.06s
+Page size
+611.6kB
+
+WITH CDN(cloudflare)
+-1st LOAD
+Load time
+1.26s
+Page size
+567.7kB
+
+-2nd LOAD
+Load time
+940ms
+--------------------
+NEW UPDATE FUNCTION
+--------------------
+1. full support mobile device
+2. CDN (JS & CSS & HTML)  
